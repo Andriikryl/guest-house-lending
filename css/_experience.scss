@@ -1,0 +1,35 @@
+.experience{
+    background-image: url(../images/experience/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    .experience__box{
+        padding-block-start: 178px;
+        .experience__logo{
+            display: flex;
+            justify-content: center;
+            padding-block-end: 37px;
+        }
+        .experience__title{
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 48px;
+            line-height: 53px;
+            text-align: center;
+            color: #FFFFFF;            
+        }
+        .experience__text{
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 20px;
+            text-align: center;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: #FFFFFF;     
+            padding-block-end: 113px;       
+        }
+    }
+}

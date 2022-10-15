@@ -1,0 +1,39 @@
+.info{
+    background-color: hsla(48, 50%, 96%, 1);
+    padding-block: 100px;
+    .decor__line{
+        padding-block-end: 32px;
+    }
+    .info__box{
+        display: flex;
+        gap: 40px;
+        justify-content: center;
+        position: relative;
+&::before{
+    content: "";
+    display: block;
+    width: 48px;
+    height: 8px;
+    background-color: hsla(29, 74%, 54%, 1);
+    position: absolute;
+    top: -32px;
+}
+        .info__text-one{
+            max-width: 360px;
+        }
+        .info__text-two{
+            max-width: 340px;
+          p{
+            margin-block-end: 41px;
+          }
+        }
+        p{
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 20px;
+            color: #333333;            
+        }
+    }
+}

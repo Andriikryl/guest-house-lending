@@ -1,0 +1,29 @@
+.slogan{
+    background-color: hsla(0, 0%, 100%, 1);
+    padding-block-start: 100px;
+    padding-block-end: 140px;
+    .slogan__box{
+        position: relative;
+        // &::before{
+        //         content: "";
+        //         display: block;
+        //         width: 48px;
+        //         height: 8px;
+        //         background-color: hsla(29, 74%, 54%, 1);
+        //         position: absolute;
+        //         top: -32px;
+        //         left: 603px;
+        //     }
+            .slogan__box-title{
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 700;
+
+                font-size: clamp(20px, 8vw - 1rem, 96px);
+                line-height: clamp(20px, 8vw - 1rem, 96px);
+
+                text-align: center;
+                color: #52503B;                
+            }
+    }
+}

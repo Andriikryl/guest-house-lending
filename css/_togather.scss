@@ -1,0 +1,92 @@
+.together{
+    padding-block: 100px;
+    .together__box{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 102px;
+        justify-content: center;
+        .together__box-titel{
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 32px;
+            line-height: 36px;
+            color: #52503B; 
+            padding-block-end: 12px;           
+        }
+        .together__box-text{
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: #52503B;            
+        }
+        .together__list{
+           display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+            gap: 32px;
+            
+            .together-one{
+                display: flex;
+                align-items: center;
+                &::before{
+                    content: "";
+                    background-image: url(../images/together/IMAGE.svg);
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    display: block;
+                    width: 36px;
+                    height: 36px;
+                    margin-right: 16px;
+                }
+            }
+            .together-two{
+                display: flex;
+                align-items: center;
+                &::before{
+                    content: "";
+                    background-image: url(../images/together/two.svg);
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    display: block;
+                    width: 36px;
+                    height: 36px;
+                    margin-right: 16px;
+                }
+            }
+            .together-three{
+                display: flex;
+                align-items: center;
+                &::before{
+                    content: "";
+                    background-image: url(../images/together/three.svg);
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    display: block;
+                    width: 36px;
+                    height: 36px;
+                    margin-right: 16px;
+                }
+            }
+            .together-four{
+                display: flex;
+                align-items: center;
+                &::before{
+                    content: "";
+                    background-image: url(../images/together/four.svg);
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    display: block;
+                    width: 36px;
+                    height: 36px;
+                    margin-right: 16px;
+                }
+            }
+        }
+    }
+}

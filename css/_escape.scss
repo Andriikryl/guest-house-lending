@@ -1,0 +1,160 @@
+.escape{
+    padding-block: 100px;
+    .escape__box-titel{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 36px;
+        color: #52503B; 
+        padding-block-end: 12px;       
+    }
+    .escape__box-text{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #52503B;
+        padding-block-end: 30px;    
+    }
+    .escape__list{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(568px, 1fr));
+        @media (max-width: 568px) {
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        }
+        gap: 32px;
+        .item-one{
+            display: flex;
+            &::before{
+                content: "";
+                background-image: url(../images/escape/one.svg);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+                display: block;
+                width: 36px;
+                height: 36px;
+                margin-right: 16px;
+            }
+        }
+        .item-two{
+            display: flex;
+            &::before{
+                content: "";
+                background-image: url(../images/escape/two.svg);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+                display: block;
+                width: 36px;
+                height: 36px;
+                margin-right: 16px;
+            }
+        }
+        .item-three{
+            display: flex;
+            &::before{
+                content: "";
+                background-image: url(../images/escape/three.svg);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+                display: block;
+                width: 36px;
+                height: 36px;
+                margin-right: 16px;
+            }
+        }
+        .item-four{
+            display: flex;
+            &::before{
+                content: "";
+                background-image: url(../images/escape/four.svg);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+                display: block;
+                width: 36px;
+                height: 36px;
+                margin-right: 16px;
+            }
+        }
+        .item-five{
+            display: flex;
+            &::before{
+                content: "";
+                background-image: url(../images/escape/five.svg);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+                display: block;
+                width: 36px;
+                height: 36px;
+                margin-right: 16px;
+            }
+        }
+        .item-six{
+            display: flex;
+            &::before{
+                content: "";
+                background-image: url(../images/escape/six.svg);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+                display: block;
+                width: 36px;
+                height: 36px;
+                margin-right: 16px;
+            }
+        }
+        .item-seven{
+            display: flex;
+            &::before{
+                content: "";
+                background-image: url(../images/escape/seven.svg);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+                display: block;
+                width: 36px;
+                height: 36px;
+                margin-right: 16px;
+                object-fit:contain;
+            }
+        }
+        .item-eight{
+            display: flex;
+            &::before{
+                content: "";
+                background-image: url(../images/escape/eight.svg);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+                object-fit:contain;
+                display: block;
+                width: 36px;
+                height: 36px;
+                margin-right: 16px;
+            }
+        }
+        a{
+            span{
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 20px;
+                color: #52503B;                
+            }
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 20px;
+            color: #333333;            
+        }
+    }
+}
+
